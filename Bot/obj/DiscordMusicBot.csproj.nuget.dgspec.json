@@ -47,6 +47,10 @@
               "target": "Package",
               "version": "[3.6.0, )"
             },
+            "Discord.Net.WebSocket": {
+              "target": "Package",
+              "version": "[3.13.1, )"
+            },
             "Lavalink4NET": {
               "target": "Package",
               "version": "[4.0.25, )"
@@ -77,7 +81,15 @@
             },
             "Microsoft.Extensions.DependencyInjection": {
               "target": "Package",
-              "version": "[8.0.0, )"
+              "version": "[9.0.0, )"
+            },
+            "Microsoft.Extensions.Hosting": {
+              "target": "Package",
+              "version": "[9.0.0, )"
+            },
+            "Microsoft.Extensions.Options": {
+              "target": "Package",
+              "version": "[9.0.0, )"
             },
             "System.Text.Json": {
               "target": "Package",
@@ -86,6 +98,10 @@
             "YouTubeExplode": {
               "target": "Package",
               "version": "[5.0.1, )"
+            },
+            "discord.net.interactions": {
+              "target": "Package",
+              "version": "[3.13.1, )"
             }
           },
           "imports": [

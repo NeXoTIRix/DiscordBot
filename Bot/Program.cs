@@ -13,12 +13,14 @@ using Microsoft.Extensions.Logging;
 using DiscordMusicBot.Utilities;
 using Discord.Interactions;
 using DiscordMusicBot.Events;
+using Microsoft.VisualBasic;
+using Microsoft.Extensions.Hosting;
+using Discord.Rest;
 
 namespace DiscordMusicBot
 {
     public class Program
     {
-
         private static async Task Main(string[] args)
         {
             DiscordSocketClient client = new DiscordSocketClient(new DiscordSocketConfig { LogLevel = LogSeverity.Debug, AlwaysDownloadUsers = true });
@@ -49,11 +51,10 @@ namespace DiscordMusicBot
             provider.GetRequiredService<Logger>().LogWarning("TOKEN IST: " + configurationService.GetBotToken());
             provider.GetRequiredService<Logger>().LogWarning("URI IST: " + lavalinkHost);
             provider.GetRequiredService<Logger>().LogWarning("PASSWORD IST: " + lavalinkPassword);
-            await client.LoginAsync(TokenType.Bot, configurationService.GetBotToken());
-            await client.StartAsync();
+            await client.LoginAsync(TokenType.Bot, configurationService.GetBotToken()).ConfigureAwait(false);
+            await client.StartAsync().ConfigureAwait(false);
             provider.GetRequiredService<Logger>().LogInfo("Bot started successfully!");
-
-            await Task.Delay(2000);
+            await Task.Delay(30000);
         }
 
 

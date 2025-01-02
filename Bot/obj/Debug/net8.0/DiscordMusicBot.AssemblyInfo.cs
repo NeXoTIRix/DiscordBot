@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("DiscordMusicBot")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+64237a055faf6ce50a0447f56945524a97d64350")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+e34a21df447b58a99dd13ddeb82c2d35f545f843")]
 [assembly: System.Reflection.AssemblyProductAttribute("DiscordMusicBot")]
 [assembly: System.Reflection.AssemblyTitleAttribute("DiscordMusicBot")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

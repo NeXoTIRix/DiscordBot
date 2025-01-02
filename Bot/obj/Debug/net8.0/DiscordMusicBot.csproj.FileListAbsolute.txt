@@ -66,3 +66,15 @@ C:\Users\aaron\Desktop\DiscordBot\bot\obj\Debug\net8.0\refint\DiscordMusicBot.dl
 C:\Users\aaron\Desktop\DiscordBot\bot\obj\Debug\net8.0\DiscordMusicBot.pdb
 C:\Users\aaron\Desktop\DiscordBot\bot\obj\Debug\net8.0\DiscordMusicBot.genruntimeconfig.cache
 C:\Users\aaron\Desktop\DiscordBot\bot\obj\Debug\net8.0\ref\DiscordMusicBot.dll
+C:\Users\aaron\Desktop\DiscordBot\bot\bin\Debug\net8.0\Microsoft.Extensions.Configuration.CommandLine.dll
+C:\Users\aaron\Desktop\DiscordBot\bot\bin\Debug\net8.0\Microsoft.Extensions.Configuration.EnvironmentVariables.dll
+C:\Users\aaron\Desktop\DiscordBot\bot\bin\Debug\net8.0\Microsoft.Extensions.Configuration.UserSecrets.dll
+C:\Users\aaron\Desktop\DiscordBot\bot\bin\Debug\net8.0\Microsoft.Extensions.Hosting.dll
+C:\Users\aaron\Desktop\DiscordBot\bot\bin\Debug\net8.0\Microsoft.Extensions.Logging.Configuration.dll
+C:\Users\aaron\Desktop\DiscordBot\bot\bin\Debug\net8.0\Microsoft.Extensions.Logging.Console.dll
+C:\Users\aaron\Desktop\DiscordBot\bot\bin\Debug\net8.0\Microsoft.Extensions.Logging.Debug.dll
+C:\Users\aaron\Desktop\DiscordBot\bot\bin\Debug\net8.0\Microsoft.Extensions.Logging.EventLog.dll
+C:\Users\aaron\Desktop\DiscordBot\bot\bin\Debug\net8.0\Microsoft.Extensions.Logging.EventSource.dll
+C:\Users\aaron\Desktop\DiscordBot\bot\bin\Debug\net8.0\System.Diagnostics.EventLog.dll
+C:\Users\aaron\Desktop\DiscordBot\bot\bin\Debug\net8.0\runtimes\win\lib\net8.0\System.Diagnostics.EventLog.Messages.dll
+C:\Users\aaron\Desktop\DiscordBot\bot\bin\Debug\net8.0\runtimes\win\lib\net8.0\System.Diagnostics.EventLog.dll
