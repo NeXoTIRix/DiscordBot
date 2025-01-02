@@ -36,6 +36,11 @@ namespace DiscordMusicBot
             // services.AddSingleton<BotService>(); //TODO: Was soll der machen? //TODO: Prüfen ob das stimmt
             services.AddSingleton<Logger>(); //TODO: Prüfen ob das stimmt -> Werden Logs angelegt
             // services.AddSingleton<SpotifyService>(SpotifyService.getInstance(lavalinkHost, lavalinkPassword)); //TODO: Prüfen ob das reicht oder der Service übergeben werden muss
+            services.AddSingleton<LavalinkApiClientOptions>(new LavalinkApiClientOptions
+            {
+                Passphrase = lavalinkPassword
+            });
+            services.AddSingleton<LavalinkApiClient>();
             ServiceProvider provider = services.BuildServiceProvider();
 
             provider.GetRequiredService<Logger>().LogInfo("Bot is starting...");

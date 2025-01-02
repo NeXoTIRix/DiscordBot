@@ -7,7 +7,7 @@ server:
 
 # Authentifizierung für Lavalink (verwende hier ein sicheres Passwort)
 auth:
-  password: "Trident01_1997"
+  password: "youshallnotpass"
 
 # WebSocket-Server Einstellungen
 socket:
@@ -18,9 +18,9 @@ socket:
 # Logging-Einstellungen
 logging:
   level:
-    root: INFO  # Das Log-Level für alle Logs
-    lavalink: DEBUG  # Das Log-Level speziell für Lavalink
-  file: Lavalink.log  # Der Pfad zur Log-Datei
+    root: INFO # Das Log-Level für alle Logs
+    lavalink: DEBUG # Das Log-Level speziell für Lavalink
+  file: Lavalink.log # Der Pfad zur Log-Datei
 
 # Audio-Kanal-Einstellungen (optional, je nach Bedarf)
 audio:
