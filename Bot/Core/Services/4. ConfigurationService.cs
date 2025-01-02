@@ -20,7 +20,7 @@ namespace DiscordMusicBot.Core.Services
         // Holt das Bot-Token
         public string GetBotToken()
         {
-            return _configuration["BotToken"];
+            return _configuration["BotSettings:Token"];
         }
 
         // Holt die Prefixe für den Bot
@@ -32,12 +32,12 @@ namespace DiscordMusicBot.Core.Services
         // Holt die Lavalink-Konfigurationsdetails
         public string GetLavalinkUri()
         {
-            return _configuration["Lavalink:Uri"];
+            return _configuration["BotSettings:Lavalink:Uri"];
         }
 
         public string GetLavalinkPassword()
         {
-            return _configuration["Lavalink:Password"];
+            return _configuration["BotSettings:Lavalink:Password"];
         }
     }
 }
