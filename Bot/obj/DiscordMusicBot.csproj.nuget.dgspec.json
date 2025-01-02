@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\aaron\\Desktop\\DiscordBot\\bot\\DiscordMusicBot.csproj": {}
+    "C:\\Users\\aaron\\Desktop\\DiscordBot\\Bot\\DiscordMusicBot.csproj": {}
   },
   "projects": {
-    "C:\\Users\\aaron\\Desktop\\DiscordBot\\bot\\DiscordMusicBot.csproj": {
+    "C:\\Users\\aaron\\Desktop\\DiscordBot\\Bot\\DiscordMusicBot.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\aaron\\Desktop\\DiscordBot\\bot\\DiscordMusicBot.csproj",
+        "projectUniqueName": "C:\\Users\\aaron\\Desktop\\DiscordBot\\Bot\\DiscordMusicBot.csproj",
         "projectName": "DiscordMusicBot",
-        "projectPath": "C:\\Users\\aaron\\Desktop\\DiscordBot\\bot\\DiscordMusicBot.csproj",
+        "projectPath": "C:\\Users\\aaron\\Desktop\\DiscordBot\\Bot\\DiscordMusicBot.csproj",
         "packagesPath": "C:\\Users\\aaron\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\aaron\\Desktop\\DiscordBot\\bot\\obj\\",
+        "outputPath": "C:\\Users\\aaron\\Desktop\\DiscordBot\\Bot\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\aaron\\AppData\\Roaming\\NuGet\\NuGet.Config"

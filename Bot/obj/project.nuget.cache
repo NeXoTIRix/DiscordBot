@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "xdMmnjx2tLc=",
+  "dgSpecHash": "ZRUURCuCcsY=",
   "success": true,
-  "projectFilePath": "C:\\Users\\aaron\\Desktop\\DiscordBot\\bot\\DiscordMusicBot.csproj",
+  "projectFilePath": "C:\\Users\\aaron\\Desktop\\DiscordBot\\Bot\\DiscordMusicBot.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\aaron\\.nuget\\packages\\anglesharp\\0.14.0\\anglesharp.0.14.0.nupkg.sha512",
     "C:\\Users\\aaron\\.nuget\\packages\\discord.net\\3.6.0\\discord.net.3.6.0.nupkg.sha512",
