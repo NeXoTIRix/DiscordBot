@@ -1,36 +1,30 @@
 {
   "format": 1,
   "restore": {
-    "C:\\DiscordMusicbot\\Bot\\DiscordMusicBot.csproj": {}
+    "C:\\Users\\aaron\\Desktop\\DiscordBot\\bot\\DiscordMusicBot.csproj": {}
   },
   "projects": {
-    "C:\\DiscordMusicbot\\Bot\\DiscordMusicBot.csproj": {
+    "C:\\Users\\aaron\\Desktop\\DiscordBot\\bot\\DiscordMusicBot.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\DiscordMusicbot\\Bot\\DiscordMusicBot.csproj",
+        "projectUniqueName": "C:\\Users\\aaron\\Desktop\\DiscordBot\\bot\\DiscordMusicBot.csproj",
         "projectName": "DiscordMusicBot",
-        "projectPath": "C:\\DiscordMusicbot\\Bot\\DiscordMusicBot.csproj",
-        "packagesPath": "C:\\Users\\Ramon\\.nuget\\packages\\",
-        "outputPath": "C:\\DiscordMusicbot\\Bot\\obj\\",
+        "projectPath": "C:\\Users\\aaron\\Desktop\\DiscordBot\\bot\\DiscordMusicBot.csproj",
+        "packagesPath": "C:\\Users\\aaron\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\aaron\\Desktop\\DiscordBot\\bot\\obj\\",
         "projectStyle": "PackageReference",
-        "fallbackFolders": [
-          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
-        ],
         "configFilePaths": [
-          "C:\\Users\\Ramon\\AppData\\Roaming\\NuGet\\NuGet.Config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+          "C:\\Users\\aaron\\AppData\\Roaming\\NuGet\\NuGet.Config"
         ],
         "originalTargetFrameworks": [
-          "net9.0"
+          "net8.0"
         ],
         "sources": {
-          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
-          "net9.0": {
-            "targetAlias": "net9.0",
+          "net8.0": {
+            "targetAlias": "net8.0",
             "projectReferences": {}
           }
         },
@@ -43,12 +37,11 @@
           "enableAudit": "true",
           "auditLevel": "low",
           "auditMode": "direct"
-        },
-        "SdkAnalysisLevel": "9.0.100"
+        }
       },
       "frameworks": {
-        "net9.0": {
-          "targetAlias": "net9.0",
+        "net8.0": {
+          "targetAlias": "net8.0",
           "dependencies": {
             "Discord.Net": {
               "target": "Package",
@@ -111,7 +104,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.101/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.404/PortableRuntimeIdentifierGraph.json"
         }
       }
     }

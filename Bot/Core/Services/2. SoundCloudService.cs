@@ -9,31 +9,31 @@ namespace DiscordMusicBot.Core.Services
 {
     public class SoundCloudService
     {
-        private readonly IAudioService _audioService;
+        // private readonly IAudioService _audioService;
 
-        public SoundCloudService(IAudioService audioService)
-        {
-            _audioService = audioService ?? throw new ArgumentNullException(nameof(audioService));
-        }
+        // public SoundCloudService(IAudioService audioService)
+        // {
+        //     _audioService = audioService ?? throw new ArgumentNullException(nameof(audioService));
+        // }
 
-        public async Task<IEnumerable<LavalinkTrack>> GetTracksAsync(string trackUrl)
-        {
-            try
-            {
-                // Tracks von der URL abrufen
-                var trackLoadResult = await _audioService.GetTracksAsync(trackUrl, SearchMode.SoundCloud);
+        // public async Task<IEnumerable<LavalinkTrack>> GetTracksAsync(string trackUrl)
+        // {
+        //     try
+        //     {
+        //         // Tracks von der URL abrufen
+        //         var trackLoadResult = await _audioService.GetTracksAsync(trackUrl, SearchMode.SoundCloud);
 
-                if (trackLoadResult == null || !trackLoadResult.Tracks.Any())
-                {
-                    throw new Exception("Keine Tracks gefunden.");
-                }
+        //         if (trackLoadResult == null || !trackLoadResult.Tracks.Any())
+        //         {
+        //             throw new Exception("Keine Tracks gefunden.");
+        //         }
 
-                return trackLoadResult.Tracks;
-            }
-            catch (Exception ex)
-            {
-                throw new Exception($"Fehler beim Abrufen der Tracks von SoundCloud: {ex.Message}");
-            }
-        }
+        //         return trackLoadResult.Tracks;
+        //     }
+        //     catch (Exception ex)
+        //     {
+        //         throw new Exception($"Fehler beim Abrufen der Tracks von SoundCloud: {ex.Message}");
+        //     }
+        // }
     }
 }

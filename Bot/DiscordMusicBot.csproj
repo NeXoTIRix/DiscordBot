@@ -3,7 +3,7 @@
 
   <PropertyGroup>
     <OutputType>Exe</OutputType>
-    <TargetFramework>net9.0</TargetFramework> <!-- Passe dies an, falls du eine andere Version verwendest -->
+    <TargetFramework>net8.0</TargetFramework> <!-- Passe dies an, falls du eine andere Version verwendest -->
     <RootNamespace>DiscordMusicBot</RootNamespace>
   </PropertyGroup>
 
