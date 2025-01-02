@@ -27,7 +27,7 @@ namespace DiscordMusicBot.Events
         }
 
         // Verarbeitet eingehende Nachrichten und prüft, ob sie mit einem der Prefixe übereinstimmen
-        private async Task MessageReceivedAsync(SocketMessage rawMessage)
+        public async Task MessageReceivedAsync(SocketMessage rawMessage)
         {
             var message = rawMessage as SocketUserMessage;
             var context = new SocketCommandContext(_client, message);
@@ -36,7 +36,7 @@ namespace DiscordMusicBot.Events
 
             // Prüfe, ob die Nachricht mit einem der Prefixe übereinstimmt
             int argPos = 0;
-            if (_prefixes.Any(prefix => message.HasStringPrefix(prefix, ref argPos))) 
+            if (_prefixes.Any(prefix => message.HasStringPrefix(prefix, ref argPos)))
             {
                 var result = await _commands.ExecuteAsync(context, argPos, _services);
                 if (!result.IsSuccess) await context.Channel.SendMessageAsync(result.ErrorReason);
