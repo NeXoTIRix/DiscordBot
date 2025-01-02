@@ -1,0 +1,31 @@
+server:
+  # Der Port, auf dem Lavalink lauscht
+  port: 2333
+
+  # Die Bind-Adresse (normalerweise localhost oder eine öffentliche IP-Adresse)
+  address: 0.0.0.0
+
+# Authentifizierung für Lavalink (verwende hier ein sicheres Passwort)
+auth:
+  password: "Trident01_1997"
+
+# WebSocket-Server Einstellungen
+socket:
+  # Konfiguration für WebSocket (um Verbindungen vom Bot zu akzeptieren)
+  connection-timeout: 30
+  buffer-duration: 30000
+
+# Logging-Einstellungen
+logging:
+  level:
+    root: INFO  # Das Log-Level für alle Logs
+    lavalink: DEBUG  # Das Log-Level speziell für Lavalink
+  file: Lavalink.log  # Der Pfad zur Log-Datei
+
+# Audio-Kanal-Einstellungen (optional, je nach Bedarf)
+audio:
+  # Maximum für das Audio-Buffering
+  buffer-duration: 30000
+
+# Lavalink Version
+version: "3.7.0"

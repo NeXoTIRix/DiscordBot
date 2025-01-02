@@ -1,0 +1,16 @@
+{
+  "ExpandedNodes": [
+    "",
+    "\\Bot",
+    "\\Bot\\2. Events",
+    "\\Bot\\Core",
+    "\\Bot\\Core\\Audio",
+    "\\Bot\\Core\\Services",
+    "\\Dependencies",
+    "\\Dependencies\\Lavalink",
+    "\\Dependencies\\Libraries",
+    "\\Logs"
+  ],
+  "SelectedNode": "\\Bot\\Core\\Services\\2. SoundCloudService.cs",
+  "PreviewInSolutionExplorer": false
+}
