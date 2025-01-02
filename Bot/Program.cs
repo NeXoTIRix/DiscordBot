@@ -34,16 +34,21 @@ namespace DiscordMusicBot
             services.AddSingleton<InteractionService>(); //ADDED
             // services.AddSingleton<CommandHandler>(); //TODO: Prüfen ob das stimmt
             // services.AddSingleton<BotService>(); //TODO: Was soll der machen? //TODO: Prüfen ob das stimmt
-            // services.AddSingleton<Logger>(); //TODO: Prüfen ob das stimmt -> Werden Logs angelegt
+            services.AddSingleton<Logger>(); //TODO: Prüfen ob das stimmt -> Werden Logs angelegt
             // services.AddSingleton<SpotifyService>(SpotifyService.getInstance(lavalinkHost, lavalinkPassword)); //TODO: Prüfen ob das reicht oder der Service übergeben werden muss
             ServiceProvider provider = services.BuildServiceProvider();
 
             provider.GetRequiredService<Logger>().LogInfo("Bot is starting...");
             RegisterEventHandlers(client, commands, provider);
 
+            provider.GetRequiredService<Logger>().LogWarning("TOKEN IST: " + configurationService.GetBotToken());
+            provider.GetRequiredService<Logger>().LogWarning("URI IST: " + lavalinkHost);
+            provider.GetRequiredService<Logger>().LogWarning("PASSWORD IST: " + lavalinkPassword);
             await client.LoginAsync(TokenType.Bot, configurationService.GetBotToken());
             await client.StartAsync();
             provider.GetRequiredService<Logger>().LogInfo("Bot started successfully!");
+
+            await Task.Delay(2000);
         }
 
 
