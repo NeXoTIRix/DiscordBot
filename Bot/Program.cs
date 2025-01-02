@@ -9,6 +9,8 @@ using DiscordMusicBot.Core.Services;
 using DiscordMusicBot.Services;
 using System;
 using System.Threading.Tasks;
+using Microsoft.Extensions.Logging;
+using DiscordMusicBot.Utilities;
 
 namespace DiscordMusicBot
 {
@@ -16,6 +18,18 @@ namespace DiscordMusicBot
     {
         private static async Task Main(string[] args)
         {
+            ConfigurationService configurationService = new ConfigurationService();
+
+            string lavalinkHost = configurationService.GetLavalinkUri();
+            string lavalinkPassword = configurationService.GetLavalinkPassword();
+            ServiceCollection services = new ServiceCollection();
+            services.AddSingleton(new DiscordSocketClient(new DiscordSocketConfig { LogLevel = LogSeverity.Debug, AlwaysDownloadUsers = true }));
+            services.AddSingleton(new CommandService(new CommandServiceConfig { LogLevel = LogSeverity.Debug, DefaultRunMode = RunMode.Async }));
+            services.AddSingleton(configurationService);
+            services.AddSingleton<CommandHandler>(); //Prüfen ob das stimmt
+            services.AddSingleton<BotService>();
+            services.AddSingleton<Logger>();
+
         }
     }
 }
