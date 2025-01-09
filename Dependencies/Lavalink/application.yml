@@ -1,0 +1,27 @@
+server:
+  port: 2333
+  address: 0.0.0.0
+lavalink:
+  server:
+    password: "youshallnotpass"
+    sources:
+      youtube: false
+      soundcloud: true
+      vimeo: true
+logging:
+  file:
+    path: "./logs/"
+  level:
+    root: INFO
+    lavalink: DEBUG
+  request:
+    enabled: true
+    includeClientInfo: true
+    includeHeaders: true
+    includeQueryString: true
+    includePayload: true
+    maxPayloadLength: 10000
+  logback:
+    rollingpolicy:
+      max-file-size: 1GB
+      max-history: 300
