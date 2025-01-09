@@ -1,0 +1,8 @@
+{
+    "Token": "token",
+    "Prefix": "!",
+    "LavalinkHostName": "127.0.0.1",
+    "LavalinkPort": "2333",
+    "LavalinkAutorisation": "youshallnotpass",
+    "YoutubeApiKey": "token"
+}

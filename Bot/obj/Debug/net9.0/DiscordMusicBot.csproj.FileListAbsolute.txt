@@ -1,5 +1,0 @@
-C:\DiscordMusicbot\Bot\obj\Debug\net9.0\DiscordMusicBot.csproj.AssemblyReference.cache
-C:\DiscordMusicbot\Bot\obj\Debug\net9.0\DiscordMusicBot.GeneratedMSBuildEditorConfig.editorconfig
-C:\DiscordMusicbot\Bot\obj\Debug\net9.0\DiscordMusicBot.AssemblyInfoInputs.cache
-C:\DiscordMusicbot\Bot\obj\Debug\net9.0\DiscordMusicBot.AssemblyInfo.cs
-C:\DiscordMusicbot\Bot\obj\Debug\net9.0\DiscordMusicBot.csproj.CoreCompileInputs.cache
